@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+
+* {color:#9f9f9f; color:#9f9f9f!important; transition: all 0.4s; font-family: 'Source Serif 4', sans-serif; cursor:url(https://i1.beon.fun/89/16/1689/94/252794/Anathema-Normal-Select_1.png),auto !important;}
+::selection {background: #680b0b;
+    color: #f00;
+    text-shadow: 0 0 4px #f00;}
+
+/*шапка и верхнее меню*/
+div#app {padding:0;}
+div#app::before {
+    content: '';
+    background: url(https://i.ibb.co/hfmZbsc/image.gif) no-repeat center;
+    background-size: cover;
+    height: 230px;
+    display: block;
+    filter: brightness(1.8);}
+
+.container {max-width:100%;}
+
+.pc-menu {
+    display: none;
+}
+
+.my-menu {color: #4d0101 !important;}
+a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    background: url(https://i1.beon.fun/89/16/1689/77/252377/right-arrow.png) no-repeat center / contain;
+    font-size: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    background: url(https://i1.beon.fun/89/16/1689/77/252377/right-arrow.png) no-repeat center / contain;
+    font-size: 0px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+    position: relative;
+    right: 2%;
+}
+.hamburger-menu {
+    display: block;
+    margin-top: 6px;
+    position: absolute;
+    right: 8%;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+    position: absolute;
+    right: 190px;
+}
+a.navbar-brand {
+    font-family: 'Smooch', cursive; 
+    font-weight: normal; 
+    letter-spacing: 2px;
+    color:#6e0000 !important; 
+    position: absolute;
+    font-size: 3rem;
+    left: 8%;
+    bottom: 55%;}
+a.navbar-brand:hover {color: #b40000!important;
+    text-shadow: 0 0 10px #bb0000;}
+.bg-white {background: linear-gradient(180deg, #350000, transparent); border-top: 1px dashed #740000;}
+.modal-content,.menu__box {
+    background: #0b0b0b;
+    }
+
+.crumbs {
+    padding: 0 !important;
+    margin-top: 30px !important;
+    width: 85%;
+    margin: auto;
+    }
+.crumb-item {
+    color: #363636!important;
+    font-weight:normal;
+}
+.pagination {color:#740000 !important;}
+.pagination a,.pagination-goto {color: #363636!important;}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #680b0b; 
+    height: 1px;}
+
+.menu__item {text-align: left;}
+
+.menu__item:hover {
+    background: linear-gradient(90deg, #6b0000, transparent);
+    color: #ec0000 !important;
+    text-shadow: 0 0 10px #f70000;
+}
+
+/*конец шапки и верхнего меню*/
+
+.bodybg {background:#0b0b0b url(https://www.transparenttextures.com/patterns/dark-matter.png);}
+
+.modal-header,.modal-footer {border:none;}
+
+.alert-success,.alert-warning, button, select{
+background: linear-gradient(180deg, #400000, transparent);
+border:none;
+border-radius:0;}
+
+
+/*ссылки и списки*/
+li {list-style:none;}
+a:hover {color:#6e0000 ; color:#6e0000 !important; text-decoration: none;}
+a.post-title,h1 { font-weight: normal;color:#6e0000 ; color:#6e0000 !important;  text-decoration:none;display: block;}
+a.post-title:hover {
+    text-shadow: 0 0 5px #ff0000;
+    color: #b80303 !important;}
+/*конец ссылок и списков*/
+
+/*иконки*/
+.post-content.blog_total_counter,[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"] {display: none;}
+/*иконки конец*/
+.datebg {font-weight:normal; text-align:right;}
+
+main.py-4 {
+    width: 85% !important;
+    margin: auto;
+}
+.content {
+    margin-left: 50px !important;
+}
+.post-content,.comment-content { 
+    background: #131313d9;
+    padding:5px;
+    border:none;
+        margin: 0 0 10px 0 !important;}
+.emj-dropdown-content {background: #131313;}
+.emj-dropdown-content a:hover {background-color: #500203;}
+
+
+input, input:focus-visible,[type=reset], [type=submit], button, html [type=button],html [type=button]:focus-visible,.btn-primary {
+    background: #141414;
+    padding: 2px;
+    border: 1px dashed #131313;
+    outline: none;
+    color: #5b5b5b !important;
+   box-shadow: inset 1px 1px 1px #150000;
+}
+input:hover, [type=submit]:hover,.btn-primary:hover {
+    border: 1px dashed #000000;
+    box-shadow: inset 2px 2px 2px #150000;
+    color: #610000 !important;
+    }
+.close:hover{background: transparent!important;}
+
+
+button:hover,button:active,button:focus, html [type=button]:hover, html [type=button]:active,html [type=button]:focus,.btn-primary:active,.btn-primary:hover,.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus,.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {background: #740000;background: #740000 !important; outline:none;border:none; border:none !important; box-shadow:none;}
+
+/*цитата*/
+.quotation {
+border-left: 2px solid #740000; color: #b40000 !important;}
+.quotation a { color: #b40000 !important;}
+/*конец цитат*/
+
+.w-100 {margin-top:5%; }
+
+/* левая менюха */
+.left-menu {
+    border:none!important; 
+    margin-right: 37px;
+    text-align:center;
+    background: url(https://i1.beon.fun/89/16/1689/76/252476/fon-kitay-gif-fonariki.gif) no-repeat fixed -15% 50%;
+    background-size: contain;
+}
+.text-center {
+    margin-bottom:5px;
+}
+.left-menu-text {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+h3 { 
+    font-weight:bold;
+    background:transparent !important; 
+    color:#740000 !important;}
+.left-menu__user-notification.left-menu__unread-message img { 
+     margin: 5px; 
+}
+h3.left-menu-text {margin: 5px !important;}
+
+/*плеер*/
+div#beon-fnplayer {
+    background: #191919;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #740000!important;
+}
+
+button#fnplayer-stop,#fnplayer-slider-inner,
+#fnplayer-volume-inner {
+    background: #740000!important;
+}
+
+div#fnplayer-volume-mask {
+    border-color: #191919 transparent transparent transparent;
+}
+
+div#fnplayer-slider {
+    background: #1f1f1f;
+    border-radius: 3px;
+}
+/*конец плеера*/
+
+.blog__last-comments a {
+    color: #535353 !important;
+}
+
+.blog__last-comments a:hover {
+    color: #970000 !important;
+}
+
+.left-menu__friends.left-menu__friends_offline a,.blog__read-me a {
+    color:#666 !important;
+}
+
+.left-menu__friends.left-menu__friends_offline a:hover,.blog__read-me a:hover {
+    color: #740000 !important;
+}
+.blog__gifts, .blog__read-me, .blog__iread, .blog__tags, .blog__last-comments {
+    background: #12121238;
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+    border: none;
+    box-shadow: 2px 2px 2px #ff00000d;
+    margin-bottom: 15px;
+    overflow: hidden;}
+
+.blog__last-comments, .blog__tags, .blog__iread, .blog__read-me, .blog__gifts {
+    height: 25px;
+}
+
+.blog__read-me:hover, .blog__iread:hover {
+    height: 270px;
+}
+
+.blog__gifts:hover {
+    height: 155px;
+
+}
+
+.blog__tags:hover {
+    height: 170px;
+
+}
+
+.blog__last-comments:hover {
+    height: 350px;
+
+}
+/*конец левой менюхи*/
+
+.readertime,.post-opt {
+font-size: 100%;}
+
+.textareabg {
+    background:transparent;
+}
+textarea:focus-visible,textarea {background: transparent;  border:none; outline:none; background-size: contain;}
+
+
+ form#messageform {
+    background: url(https://i1.beon.fun/89/16/1689/91/247891/aaaa.png) no-repeat right top, linear-gradient(270deg, #0b0b0b, #0b0b0b);
+    padding: 5px;
+    background-size: contain;
+}
+
+/*аватарки у комментов*/
+.avatar-select-label {
+border: 4px solid #00000000;  filter: contrast(1.34) grayscale(1) ;
+    mix-blend-mode: lighten;
+}
+.avatar-select-label-selected {
+    border: 4px solid #740000;
+    mix-blend-mode: normal;
+    filter: none;
+}
+/*аватарки у комментов*/
+
+/*прокрутка страницы*/
+::-webkit-scrollbar-button {
+width:5px;
+height:0px;
+}
+::-webkit-scrollbar-track {
+background-color:#000;
+box-shadow: none;
+width: 1px;
+}
+::-webkit-scrollbar-thumb {
+background: #680b0b;
+box-shadow:none;
+}
+::-webkit-resizer{
+width:1px;
+height:0px;
+}
+::-webkit-scrollbar{
+width: 1px;
+}
+/*конец прокрутки страницы*/
+
+
+@media (max-width: 800px) {
+main.py-4 {
+    flex-flow: column;
+}
+
+main.py-4 {
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 98%!important;
+}
+
+div#app::before {
+    content: '';
+    background: url(https://i1.beon.fun/89/16/1689/66/243966/Bez-imeni-11.gif) no-repeat center;
+    background-size: cover;
+    height: 170px;
+    display: block;
+    filter: brightness(1.8) contrast(1.1);}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    position: absolute;
+    right: 280px;
+}
+
+.content {
+padding-left: 2px;
+margin-left:0px !important;
+width:100%;
+position: initial;
+}
+
+.post-avatar img {
+    width: 80px;
+}
+
+a.navbar-brand {
+    font-size: 2.4rem;
+    left: 33%;
+    top: -60px;}
+
+.left-menu {
+    width:auto;
+    height:auto;
+    background:transparent;
+    margin-right: 0px;
+}
+.my-menu {
+    margin: 0;
+}
+
+.crumb-item {
+    display: block;
+    text-align: center;}
+
+.post-content, .comment-content  {
+    margin-top: 10px;
+    background: #131313b5;
+    min-height:50px;
+}
+
+.post-row, .comment-row {
+    padding-top: 6px;
+    border-top: 1px dashed #740000;
+}
+
+.comment-text {
+    padding-bottom:10px;
+}
+
+.post-content > div:nth-child(2) > a,.post-content [href^="#"] {
+    color: #424242 !important;
+}
+
+.post-content > div:nth-child(2) > a:hover,.post-content [href^="#"]:hover {
+    color: #710000 !important;
+}
+
+.comment-box__message-partial.comment-content a {
+    display:block; 
+    color: #363636 !important;
+}
+.comment-box__message-partial.comment-content a:hover {
+    color:#740000 !important;
+}
+
+h2 {
+    text-align:center;
+    color:#363636 !important;
+}
+
+.comment-box__message-partial.comment-content {
+    color:#363636 !important;
+}
+
+textarea,textarea:active,textarea:focus-visible {
+    border-top: 1px dashed #740000 !important;}
+
+form#messageform {
+    background-size: cover;
+    background-position-x: 75%;
+}
