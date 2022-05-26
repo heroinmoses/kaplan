@@ -57,8 +57,14 @@ border-left: 3px solid #ccc;}
 
 h3 { margin-top: 10%; background: linear-gradient(89deg, #000, #acacac42, transparent) !important; font-weight:bold;}
 
-.menu__box,.left-menu__user-notification,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments {border: none; border: none!important; background: #000;}
+.blog__gifts,.menu__box,.left-menu__user-notification,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments {border: none; border: none!important; background: #000;}
 .left-menu {background:transparent; border:none; border:none!important;}
+
+.blog__gifts img {
+    display: block;
+    width: 30px;
+    filter: grayscale(1);
+}
 
 .menu__item:hover { background: linear-gradient(-90deg, #b9b9b9, #acacac42, transparent)}
 
