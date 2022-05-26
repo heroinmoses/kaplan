@@ -61,7 +61,7 @@ h3 { margin-top: 10%; background: linear-gradient(89deg, #000, #acacac42, transp
 .left-menu {background:transparent; border:none; border:none!important;}
 
 .blog__gifts img {
-    display: block;
+    display: block !important;
     width: 30px;
     filter: grayscale(1);
 }
