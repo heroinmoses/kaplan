@@ -28,6 +28,12 @@ a:hover,span[data-target="#deleteconfirmmodal"]:hover,span.comments_count a span
     background: #070707;
 }
 
+.modal-content {
+    background-color: #f7f7f7 !important;
+    border:none !important;
+    border-radius:0 !important;
+}
+
 div#navbarSupportedContent a {
     color: #e2e2e2 !important;
 }
@@ -235,6 +241,9 @@ input[type="text"]:focus-visible {
     border: none;
     color: #070707 !important;
     border-radius: 0px;
+}
+button.close {
+    background: transparent !important;
 }
 
 ::-webkit-scrollbar-button {
