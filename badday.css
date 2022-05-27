@@ -132,6 +132,29 @@ font-size: 10px;}
     background: #070707 !important;
     text-align:center;
 }
+div#beon-fnplayer {
+    background: #e2e2e2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #070707 !important;
+}
+
+button#fnplayer-stop,#fnplayer-slider-inner,
+#fnplayer-volume-inner {
+    background: #070707 !important;
+}
+
+div#fnplayer-volume-mask {
+    border-color: #e2e2e2 transparent transparent transparent;
+}
+
+div#fnplayer-slider {
+    background: #fff;
+    border-radius: 3px;
+}
 /*конец левого меню*/
 
 [style="margin-left: 5px;"] {
