@@ -53,6 +53,10 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
     position: relative;
     right: 2%;
 }
+.datebg {
+
+   margin-left: 0px !important;
+}
 /*мобильное меню*/
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #a3cdff;
