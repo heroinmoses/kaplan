@@ -260,6 +260,19 @@ textarea:focus-visible {
 .user_img_shadow {
     box-shadow: 0 0 10px #ff00d49e;
 }
+
+.btn-outline-primary {
+    border:none !important;
+}
+
+.btn-outline-primary: hover {
+    background-color: #ffdff5;
+    border-color: #ffc6f8;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 0rem!important;
+}
 ::-webkit-scrollbar-button {
 background-image:url('');
 background-repeat:no-repeat;
