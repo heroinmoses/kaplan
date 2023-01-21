@@ -254,7 +254,12 @@ textarea:focus-visible {
     outline: none;
     border: 1px solid #ffe0fc;
 }
-
+.div_user_img,.user_footer {
+    border:none !important;
+}
+.user_img_shadow {
+    box-shadow: 0 0 10px #ff00d49e;
+}
 ::-webkit-scrollbar-button {
 background-image:url('');
 background-repeat:no-repeat;
