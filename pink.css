@@ -265,9 +265,10 @@ textarea:focus-visible {
     border:none !important;
 }
 
-.btn-outline-primary: hover {
+.btn-outline-primary:hover {
     background-color: #ffdff5 !important;
     border-color: #ffc6f8 !important;
+   
 }
 
 .mb-3, .my-3 {
