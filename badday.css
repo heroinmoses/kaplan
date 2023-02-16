@@ -72,9 +72,11 @@ body {
 .post-content.blog_total_counter,[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"] {
     display: none;
 }
-.fas::before,.far::before,.fab::before {
-    color: #070707;
+.liked .fas, .reposted .fas, .bookmarked .fas, i.fas.fa-heart:hover, i.fas.fa-retweet:hover, i.fas.fa-quote-left:hover, .fa:hover, .fas:hover, i.far.fa-smile-wink:hover {
+    color: #ae0000 !important;
+    filter: drop-shadow(2px 2px black);
 }
+
 li {list-style:none;}
 /*иконки конец*/
 
