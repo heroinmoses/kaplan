@@ -58,7 +58,7 @@ a:hover,.pc-menu a:hover,span[data-target="#deleteconfirmmodal"]:hover,span[data
 h3 {
     background: #e16c3b !important;
 }
-.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.textareabg,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message {
+.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.textareabg,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends {
      background: #f5f5f5;
      box-shadow: 0 0 20px;
     margin-bottom:30px;
