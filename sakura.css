@@ -63,7 +63,7 @@ a:hover,span[data-target="#deleteconfirmmodal"]:hover,.liked .fas, .reposted .fa
     border-radius: 5px;
     box-shadow: 0 0 10px;
 }
-.post-content, .comment-content,.modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.textareabg,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message {
+.post-content, .comment-content,.modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.textareabg,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends {
     background: linear-gradient(0deg, white, #fff6fc);
     backdrop-filter: blur(3px);
     box-shadow: 0 0 10px #c294c1;
