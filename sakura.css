@@ -9,6 +9,11 @@
 *:focus-visible {
     outline: none;
 }
+::selection {
+    background: #ffb4dd;
+    color: #fff;
+    text-shadow: 0 0 4px #fff;}
+
 div#app {
     padding:0 !important;
 }
