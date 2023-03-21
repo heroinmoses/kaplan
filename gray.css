@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Rubik+Glitch&display=swap');
+
+::selection {
+    background: #222;
+    color: #fff;
+    text-shadow: 0 0 4px #fff;}
+* {
+    color: #7e7e7e;
+    color: #7e7e7e !important;
+    font-family: 'Bona Nova', serif;
+    letter-spacing: 0.4px;
+}
+*:focus-visible {
+    outline: none;
+}
+a:hover,span[data-target="#deleteconfirmmodal"]:hover,.liked .fas, .reposted .fas, .bookmarked .fas,i.fas.fa-heart:hover, i.fas.fa-retweet:hover, i.fas.fa-quote-left:hover, .fa:hover, .fas:hover, i.far.fa-smile-wink:hover {
+    color: #ccc !important;
+}
+body,.modal-content {
+    background:  #000000 url("https://www.transparenttextures.com/patterns/dark-circles.png");
+}
+div#app {
+    padding:0 !important;
+}
+.bg-white {
+    background: transparent;
+    text-transform: lowercase;
+}
+div.crumbs {
+    width: 70%;
+    margin: 0 auto;
+}
+main.py-4 {
+    width: 70%;
+    margin: 0 auto;
+}
+a.navbar-brand {
+    font-family: 'Rubik Glitch', cursive;
+}
+.alert-success,.alert-warning {
+    color: #ccc;
+    background: #000;
+    border: 1px dashed #222;
+}
+button, input,button.btn.btn-primary {
+    background: #000;
+    border: 1px dashed #222;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+input[type="text"] {
+    margin-bottom: 10px;
+    max-width: 150px;
+    margin-right: 10px;
+}
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,a.btn.btn-outline-primary.mb-3:hover {
+    background: #222 !important;
+    border: 1px dashed #ccc;
+    color: #ccc!important;
+    box-shadow: inset 0 0 4px #222!important;
+}
+.div_user_img,.user_footer {
+    border:none;
+}
+.modal-footer {
+    border-top: 1px dashed;
+}
+.modal-header {
+    border-bottom: 1px dashed;
+}
+.post-content, .comment-content {
+    background: linear-gradient(180deg, #151515ba, transparent);
+    border-top: 1px dashed #222;
+}
+.datebg {
+    font-size: 70%;
+    letter-spacing: 2.2px;
+}
+#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-message > img {
+    width: 30%;
+     filter: grayscale(1) opacity(0.5) drop-shadow(0px 0px 3px #444);
+     padding: 4px;
+     border: 1px dashed #222;
+}
+#app > main > div.left-menu > div.left-menu__user-notification.left-menu__unread-message > img:hover {
+    filter: grayscale(0) opacity(1) drop-shadow(0px 0px 5px #555);
+    border: 1px dashed #333;
+}
+.row.w-100:hover {
+    height: inherit;
+    opacity: 1;
+    transition: all 0.4s;
+}
+.row.w-100 {
+    opacity: 0;
+}
+.post-title, h1, h3 {
+    font-family: 'Rubik Glitch', cursive;
+}
+.post-avatar img {
+    filter: grayscale(1) opacity(0.5) drop-shadow(0px 0px 3px #444);
+    padding: 4px;
+    border: 1px dashed #222;
+    width: 90px;
+}
+.post-avatar img:hover {
+    filter: grayscale(0) opacity(1) drop-shadow(0px 0px 5px #555);
+    border: 1px dashed #333;
+}
+
+span.imagewrapper {
+    width: 80%;
+    filter: opacity(0.5) grayscale(1)drop-shadow(0px 0px 3px #444);
+}
+span.imagewrapper:hover {
+    filter: opacity(1) grayscale(0) drop-shadow(0px 0px 5px #555);
+    
+}
+img.mw-100 {
+    filter: opacity(0.5) grayscale(1)drop-shadow(0px 0px 3px #444);
+    border: 1px dashed #222;
+    padding:4px;
+}
+img.mw-100:hover {
+    filter: opacity(1) grayscale(0) drop-shadow(0px 0px 5px #555);
+    border: 1px dashed #333;
+}
+.left-menu {
+    text-transform: lowercase;
+    text-align: right;
+    font-size: 80%;
+}
+.left-menu .post-opt {
+    display: none;
+}
+h3 {
+    background: linear-gradient(45deg, #151515cf, transparent) !important;
+    border-left: 1px dashed #222;
+}
+.left-menu__gift img {
+    width: 55%;
+    filter: grayscale(1) contrast(1.1);
+}
+.blog__last-comments {
+    display: none;
+}
+/*иконки*/
+[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"],#footer,#page__rendertime,.post-content.blog_total_counter,.post-title-date,a.messageform__taglinks img {
+    display: none;
+}
+li {list-style:none;}
+/*иконки конец*/
+
+.left-menu {
+    border:none !important;
+}
+/*плеер*/
+div#beon-fnplayer {
+    border: 1px dashed #222;
+    background: #000;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #222 !important;
+}
+button#fnplayer-play:hover {
+    border-color: transparent transparent transparent #555 !important;
+    background: #000 !important;
+}
+button#fnplayer-stop:hover {
+    background: #555 !important;
+}
+button#fnplayer-stop,#fnplayer-slider-inner, #fnplayer-volume-inner {
+    background: #222 !important;
+}
+
+div#fnplayer-volume-mask {
+    border-color: #000 transparent transparent transparent;
+}
+#fnplayer-volume {
+    background: #555;
+}
+div#fnplayer-slider {
+    background: #333;
+    border-radius: 0px;
+}
+/*конец плеера*/
+.textareabg {
+    background: transparent !important;
+}
+textarea {
+    background: #000;
+    border: 1px dashed #222;
+    padding: 10px;
+}
+.quotation{
+    border-left: none;
+    border-bottom: 1px dashed #b3b3b3;
+    color: #b3b3b3 !important;
+    text-shadow: 0 0 1px white;
+    margin-left: 7px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+p.quotation:hover {
+    color: #e5e5e5 !important;
+    text-shadow: 0 0 5px white;
+    border-bottom: 1px dashed #e5e5e5;
+}
+::-webkit-scrollbar-button {
+    width:5px;
+    height:0px;
+}
+::-webkit-scrollbar-track {
+    background-color:#000;
+    box-shadow: none;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222;
+    box-shadow:inset 0 0 5px #ссс;
+}
+::-webkit-resizer{
+    width:5px;
+    height:0px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+.avatar-select-label {
+    border: 4px solid #ffffff00;
+    border-radius: 0px;
+    width: 75px;
+    filter: grayscale(1) opacity(0.5);
+}
+.avatar-select-label:hover {
+    width: 80px;
+    filter: grayscale(0.7) opacity(0.7);
+}
+.avatar-select-label-selected,.avatar-select-label-selected:hover {
+    border: 1px dashed #222;
+    filter: grayscale(0.4) opacity(1) drop-shadow(0px 0px 3px #444);
+    padding: 4px;
+    width: 85px;
+}
+
+@media (max-width: 800px) {
+main.py-4 {
+    flex-flow: column;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #555;
+    height: 1px;
+}
+.menu__item:hover {
+    background: linear-gradient(270deg, #222, transparent);
+    padding: 3px;
+}
+.menu__box {
+    background: linear-gradient(0deg, black, #111);
+}
+div.crumbs {
+    width: auto;
+    margin: 0 auto;
+}
+main.py-4 {
+    padding: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 98%!important;
+}
+.content,.left-menu {
+    width: 100% !important;
+    position: inherit;
+}
+
+.post-avatar img {
+    width: 80px;
+}
+
+.fas, .far, .tag_bar > * {
+    font-size: 0.9rem;
+}
+.row.w-100 {
+    opacity: 1;
+}
+.left-menu {
+    text-align: center;
+}
