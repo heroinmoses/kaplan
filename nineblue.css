@@ -84,7 +84,7 @@ a.menu__item {
 .fa-heart:before {
     content: url(https://i1.beon.fun/89/16/1689/63/256963/heart-1.png);
 }
-i.fas.fa-heart:hover:before {
+i.fas.fa-heart:hover:before,.liked .fas {
     content: url(https://i1.beon.fun/89/16/1689/67/256967/like.png);
 }
 .fas::before,.far::before,.fab::before {
