@@ -1,1 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+::selection {
+background: #1672ef; 
+color:#f2f2f2;
+}
+::-moz-selection {
+background: #1672ef; 
+color:#f2f2f2;}
+
+::-webkit-selection {
+background: #1672ef; 
+color:#f2f2f2;}
+
+* {
+    color:#64b0ff; 
+    color:#64b0ff !important; 
+    transition: all 0s;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 0.7rem; 
+    letter-spacing: 1px;
+}
+
+a,span[data-target="#deleteconfirmmodal"], span.comments_count a span {color: #64b0ff !important;}
+
+a:hover,span[data-target="#deleteconfirmmodal"]:hover,span.comments_count a span:hover {
+    color: #fff !important;
+}
+
+.shadow-sm {
+    box-shadow: none;
+}
+
+li {list-style:none;}
+
+.crumbs {
+    padding:0!important;
+}
+
+.modal-content,.modal-header,.modal-footer {
+    background: #000 !important;
+    border: none;
+}
+
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: none !important;
+}
+
+
+body {
+    background:url(https://beon.vip/uploads_image/12/5d/125d6f7dbbdbe149aa6c7e77e3089955.gif) repeat;
+    background-size:50%;}
+.bg-white {
+    background-color: transparent;
+}
+.content {
+    background:#000; box-shadow: 0px 2px 4px #374d78;
+    position: relative;
+    left: 20%!important;
+    padding-left: 1%;
+}
+
+div#app {
+    padding:0;
+}
+
+div#navbarSupportedContent a {
+    color: #e2e2e2 !important;
+}
+
+.container {
+    max-width: 80%;
+    padding: 0;
+}
+
+.py-4,.crumbs {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    margin-left: 0;
+}
+
+::-webkit-scrollbar-button {
+width:5px;
+height:0px;
+}
+::-webkit-scrollbar-track {
+background-color:#0d121a;
+box-shadow: none;
+width: 5px;
+}
+::-webkit-scrollbar-thumb {
+background: #233c48;
+box-shadow:none;
+}
+::-webkit-resizer{
+width:2px;
+height:0px;
+}
+::-webkit-scrollbar{
+width: 5px;
+}
+
+.hamburger-menu {
+    display: block;
+    margin-top: 6px;
+    position: absolute;
+    right: 8%;
+}
+
+.pc-menu {
+    display: none;
+}
+
+.alert-success,.alert-warning {
+    background-color: #000;
+    border-color: transparent;
+}
+
+div#navbarSupportedContent a {
+    color: #64b0ff !important;
+    position: fixed;
+    right: 5px;
+    bottom: 43%;
+    background: url(https://i1.beon.fun/89/16/1689/20/505120/icons8-pixel-arrow-30.png) no-repeat center / contain;
+    font-size: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    text-shadow: none !important;
+    position: fixed;
+    top: 50%;
+    left: 96%;
+    background: url(https://i1.beon.fun/89/16/1689/19/505119/icons8-pixel-arrow-30-1.png) no-repeat center / contain;
+    font-size: 0px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.post-content.blog_total_counter,[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"] {
+    display: none;
+}
+.fas::before,.far::before,.fab::before {
+    color: #64b0ff;
+}
+li {list-style:none;}
+
+.sign {
+    font-size: 6px;
+}
+
+.post-avatar {
+    display: table;
+    width: 1px;
+    float: left;
+}
+
+.avatar-select-label {
+    filter: brightness(0.5);
+}
+.avatar-select-label-selected {
+    border: 4px solid #64b0ff;
+    filter: brightness(1) contrast(1.1);
+}
+
+.readertime,.post-opt {
+    font-size: 100%;
+}
+
+.w-100 {
+    width: 100%!important;
+    margin-top: 35px;
+    border-top: 1px #40537e dashed;}
+
+
+.textareabg {
+    background-color: #000000;
+}
+.quotation {
+    border: none !important;
+    border-radius: 100px;
+    background: transparent url(https://beon.vip/uploads_image/12/5d/125d6f7….gif) repeat;
+    background-size: 30%;
+    padding-left: 5px;
+    box-shadow: -4px -1px 7px 0px #fff;
+    margin: 2%;
+    margin-left: 7px;
+    color: #92a2c3 !important;
+    margin-bottom: 10px;
+    padding-top: 0.3rem;
+}
+
+.left-menu {
+    background: url(https://beon.vip/uploads_image/c3/64/c36445484204ef3c3a1d5c5b7455285a.png) no-repeat 0% 100%; 
+    background-size:cover; 
+    display: inline-block;
+    padding-top: 5px;
+    border:none !important;
+    vertical-align: top;
+    height: 600px !important;
+    overflow: auto !important;
+    position: fixed !important;
+    left:4%;
+    max-width:300px;
+    overflow-x: hidden !important;
+}
+.left-menu h3 {
+    background: #000 !important;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+h3.left-menu-text {
+    font-size: 15px;
+    text-align: end;
+}
+.mw-100 {
+    display: none;
+}
+.left-menu__gift img {
+    filter: grayscale(1) contrast(1.5) opacity(0.8);
+}
+.left-menu__user-notification.left-menu__unread-message img, .post-avatar img {
+    margin-bottom: 5px;
+    filter: grayscale(1) contrast(1.2) opacity(0.8);
+}
+.left-menu__user-notification.left-menu__unread-message img:hover, .post-avatar img:hover {
+    margin-bottom: 5px;
+    filter: grayscale(0) contrast(1.2) opacity(1);
+}
+
+div#beon-fnplayer {
+    background: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button#fnplayer-play {
+    border-color: transparent transparent transparent #002a88 !important;
+}
+
+button#fnplayer-stop,#fnplayer-slider-inner,
+#fnplayer-volume-inner {
+    background: #002a88 !important;
+}
+
+div#fnplayer-volume-mask {
+    border-color: #000 transparent transparent transparent;
+}
+
+div#fnplayer-slider {
+    background: #001f63;
+    border-radius: 1px;
+}
+
+input[type="text"],select {
+    background: #000;
+    border: 1px solid #002a88;
+    border-radius: 0;
+    margin: 0 5px 5px 0;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    background: #070707;
+    border: 1px solid #002a88;
+    border-radius: 0px;
+    color: #f2f2f2 !important;
+}
+
+input[type="text"]:focus-visible {
+    outline: none;
+}
+
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover {
+    background: #155fd9;
+    border: 1px solid #000;;
+    color: #64b0ff !important;
+    border-radius: 0px;
+    box-shadow: 1px 1px #002a88;
+}
+
+ button:focus-visiable {
+       outlina:none !important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+      background-color: #64b0ff;
+}
+.avatar-select-label {border: 4px solid #00000000; }
+
+.avatar-select-label-selected {
+      border: 4px solid #64b0ff;
+}
+
+textarea {
+    border: none;
+    background:#000;
+}
+textarea:focus-visible, textarea:active{
+    outline: none;
+    border: none;
+}
+
+.menu__box {
+    background-color: #000;   
+}
+.menu__item {
+    font-family: 'Press Start 2P', sans-serif !important;
+    font-size: 1rem;
+}
+
+.menu__item:hover {
+    background: #070707;
+    color: #f2f2f2 !important;
+}
+
+@media (max-width: 800px) {
+main.py-4 {
+    flex-flow: column;
+}
+
+main.py-4 {
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 98%!important;
+}
+.left-menu {
+    background: transparent;
+    height: auto !important; 
+    padding-top: 5px;
+    border:none !important;
+    position:inherit !important;
+    width: 100%;
+}
+.content {
+    background:#000; box-shadow: 0px 2px 4px #374d78;
+    position: inherit !important;
+  }
+.post-avatar {
+    display:none;
+}
+
+.menu__box {
+    background: url(https://beon.vip/uploads_image/c3/64/c36445484204ef3c3a1d5c5b7455285a.png) no-repeat 0% 100%; 
+    background-size:cover;   
+}
+
+.menu__item {
+    text-shadow: 2px 2px #000, -2px -2px #000;
+}
+
+.my-menu {
+    margin: 5%;
+    color: #64b0ff !important;
+    position: inherit;
+    background: url(https://i1.beon.fun/89/16/1689/20/505120/icons8-pixel-arrow-30.png) no-repeat center / contain;
+    font-size: 0px;
+    width: 30px;
+    height: 30px;
+}
+       
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    text-shadow: none !important;
+    position: inherit;
+     background: url(https://i1.beon.fun/89/16/1689/19/505119/icons8-pixel-arrow-30-1.png) no-repeat center / contain;
+    font-size: 0px;
+    width: 30px;
+    height: 30px;
+    
+}
 
