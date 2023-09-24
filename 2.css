@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:focus-visible {outline:none; outline:none!important;}
+::selection {background: #3e216b; color: #fff; text-shadow: 0 0 4px #fff;}
+.bodybg {background: url(https://img5.goodfon.ru/original/1920x1080/8/c7/derevia-nebo-ptitsy.jpg) no-repeat fixed;
+background-size: cover;}
+.quotation {
+border-left: 1px solid #f7d8af;}
+.bg-white, .menu__box,.modal-content {background:#694ba1;}
+.modal-footer,.modal-header {border:none;}
+ul {font-family: 'Lobster', cursive;}
+.navbar-brand {font-family: 'Lobster', cursive; color:#fff6dd; color:#fff6dd!important; text-shadow: 0 0 10px #ff5d00;}
+li {list-style-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b46861d4-f830-4896-8af6-71206fe2fe78/db7hbz9-1452db7f-4a8b-4c2e-b13c-feb6e4167917.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I0Njg2MWQ0LWY4MzAtNDg5Ni04YWY2LTcxMjA2ZmUyZmU3OFwvZGI3aGJ6OS0xNDUyZGI3Zi00YThiLTRjMmUtYjEzYy1mZWI2ZTQxNjc5MTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.j4kBiK-yeO_3lqaCQiM2oPshNjDhCzp_8j3PTNfrgo8);}
+.pc-menu a {
+font-size: 0.6rem;}
+
+div,a,span,h3 {color: #3e216b; color: #3e216b!important; transition:0.5s; text-decoration: none!important;}
+a.post-title {font-size: 30px; display: block; text-align: center; font-family: 'Lobster', cursive;}
+a:hover {color:#fff6dd; color:#fff6dd!important; text-shadow: 0 0 10px #ff5d00;}
+a.post-title {color: #6b4ba0 !important; color: #6b4ba0;
+text-shadow: 1px -1px 0px #f6c3af;}
+
+.post-content.blog_total_counter,[src="/i/user.png"], [src="/i/blog.png"],.user:before,.tag:before {display: none;}
+
+.post-content,.comment-content {background: linear-gradient(180deg, #cf91bc9e, #694ba1); box-shadow: 0 0 10px #7739ea; border-radius: 10px; margin-bottom: 10%!important; padding: 5px; backdrop-filter: blur(5px); }
+.w-100 {margin-top:5%;}
+
+h3 {background: linear-gradient(180deg, #cf91bc, #dba1b000) !important;
+margin-top: 10%; margin-top: 10%;}
+.left-menu {border:none; border:none!important; backdrop-filter: blur(5px); opacity:0; transition: 1s;}
+
+.left-menu:hover {opacity:1;}
+.text-center {display:none;}
+.post-avatar img {
+border-radius: 100%;}
+
+.menu__item:hover {background: linear-gradient(270deg, #eb959247, #694ba1);}
+.left-menu-text {
+margin-bottom: 5px;
+font-size: 10px;}
+.readertime,.post-opt {
+font-size: 100%;}
+.textareabg {background:transparent;}
+textarea, textarea:focus-visible,input, input:focus-visible,.btn-secondary,.btn-primary:hover,.btn-primary {background: #694ba1e0;
+color: #f2c4a1;
+box-shadow: 0 0 10px #f3c0a1;
+margin: 10px 5px 0 0;
+outline: none;
+border-radius: 5px;
+border: none;
+backdrop-filter: blur(5px);}
+.avatar-select-label {border: 4px solid #684aa1; }
+.avatar-select-label-selected {border: 4px solid #f4c3a2;}
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:1px;
+height:0px;}
+::-webkit-scrollbar-track {
+background-color:#684aa1;
+box-shadow: none;
+width: 1px;}
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#ffccab;
+box-shadow:none;
+background-image:url('https://yraaa.ru/_pu/24/59610063.png">https://yraaa.ru/_pu/24/59610063.png');
+background-position:center;
+background-repeat:no-repeat;}
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:2px;
+height:0px}
+::-webkit-scrollbar{
+width: 2px;}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {background-color: #3e216b;}
