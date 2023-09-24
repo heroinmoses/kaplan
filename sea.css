@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+::selection {background: #3490dc; color: #fff; text-shadow: 0 0 4px #fff;}
+.py-4 {justify-content: center;}
+.bodybg {background: url(https://res.allmacwallpaper.com/get/iMac-21-inch-wallpapers/The-Water-1920x1080/7457-9.jpg) no-repeat fixed;
+background-size: cover;}
+
+.bg-white{ background: linear-gradient(180deg, #377ca4, transparent);}
+.menu__box,.modal-content {background: #fff;}
+.shadow-sm {box-shadow: none !important;}
+
+li {list-style: none;}
+
+.quotation {
+border-left: 3px solid #185174;}
+
+.pc-menu a {color: #b9cde2 !important;}
+
+.pc-menu a {
+font-size: 0.6rem;}
+
+div,a,span,h3 {color: #115475; color: #115475!important; transition:0.5s; text-decoration: none!important; }
+
+a:hover {color:#bcd0ea; color:#bcd0ea !important; text-decoration: none;}
+a.post-title {font-size: 30px; display: block; text-align: center; font-family: 'Caveat', cursive;}
+a.post-title,.navbar-brand {
+background: url(https://res.allmacwallpaper.com/get/iMac-21-inch-wallpapers/The-Water-1920x1080/7457-9.jpg);
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+-webkit-text-fill-color: transparent;
+text-shadow: 2px -1px 2px #275d8052;
+}
+
+
+.post-content.blog_total_counter,[src="/i/user.png"], [src="/i/blog.png"],.user:before,.tag:before {display: none;}
+.content {width: 60%;}
+.content, .left-menu{
+margin-right: 4%;
+margin-left: 8px;
+padding-left: 20px;
+background: #7faad0e8;
+backdrop-filter: blur(5px);
+border:none;
+border:none!important;
+box-shadow: 0 0 5px #144d6f;
+}
+.datebg {font-size: 60%;}
+
+.alert-success {
+background-color: #6e99bc;
+border-color: #326c90;}
+
+.w-100 {margin-top:5%;}
+
+h3 {background: linear-gradient(180deg, #7faad0, #608fb0, #7faad0) !important; margin-top: 10%; font-family: 'Caveat', cursive;}
+
+.left-menu img {
+display: none;
+}
+
+
+
+.menu__item:hover {background: linear-gradient(282deg, #276185, #739ec3, transparent);
+}
+
+.left-menu-text {
+margin-bottom: 5px;
+font-size: 10px;}
+
+.readertime,.post-opt {
+font-size: 100%;}
+
+.textareabg {background:transparent;}
+
+textarea, textarea:focus-visible,input, input:focus-visible {background: #8eb0d0;
+color: #346789;
+box-shadow: 2px 2px 0px #075477;
+margin: 10px 5px 0 0;
+outline: none;
+border-radius: 5px;
+border: none;}
+
+.avatar-select-label {border: 4px solid #0000; }
+.avatar-select-label-selected {border: 4px solid #1d6688;}
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:1px;
+height:0px;}
+::-webkit-scrollbar-track {
+background-color:#8eb0d0;
+box-shadow: none;
+width: 1px;}
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#1d6688;
+box-shadow:none;
+background-image:url('https://yraaa.ru/_pu/24/59610063.png">https://yraaa.ru/_pu/24/59610063.png');
+background-position:center;
+background-repeat:no-repeat;}
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:2px;
+height:0px}
+::-webkit-scrollbar{
+width: 2px;}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+background-color: #7faad0;}
+.menu__box, .modal-content,.modal-header,.modal-footer {background: #aecce5;
+border: none;
+}
+.btn-secondary,.btn-primary {
+color: #95b8d6;
+background-color: #0c3246;
+border-color: #0a2b3c;
+}
+.btn-secondary:hover,.btn-primary:hover{color: #00a6ff;
+background-color: #d1e8ff;
+border-color: #008cff;}
+
+@media (max-width: 800px) {main.py-4 {
+flex-flow: column;
+}
+
+
+main.py-4 {
+padding: 0;
+padding-left: 7px;
+padding-right: 7px;
+}
+
+
+.content {
+padding-left: 0px;
+margin: 0;
+border: none;
+box-shadow: unset;
+width:100%;
+}
