@@ -1,1 +1,178 @@
+* {color:#334d5a; color:#334d5a!important; transition: all 0.4s;}
+
+div#app {
+    padding:0 !important;
+}
+[href="https://beon.fun"] {content: url(https://beon.vip/uploads_image/2c/03/2c03bc6aa6f7428f63747eb4962dfc89.png); 
+    width: 120px !important;
+    width:90px;
+    position:relative;
+    top:0px;}
+
+.bg-white {
+    background:#e8e8e8d1; 
+    box-shadow:-1px 2px 11px #6b9fac !important; 
+}
+
+body { 
+   background: url(https://beon.vip/uploads_image/bd/32/bd323f521a66f82d52e557ee7481bc99.jpg) no-repeat fixed 50% 50%; 
+    background-size:cover;}
+/*иконки*/
+[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"],#footer,#page__rendertime,.post-content.blog_total_counter,.post-title-date {
+    display: none;
+}
+li {list-style:none;}
+/*иконки конец*/
+a {
+    text-decoration:none !important;
+}
+a:hover,span[data-target="#deleteconfirmmodal"]:hover,.liked .fas, .reposted .fas, .bookmarked .fas,i.fas.fa-heart:hover, i.fas.fa-retweet:hover, i.fas.fa-quote-left:hover, .fa:hover, .fas:hover, i.far.fa-smile-wink:hover {
+    color: #fff; 
+    color:#fff!important; 
+    text-decoration:none; 
+    text-shadow: 0 0 5px #fff;
+}
+.post-content.blog_total_counter {
+    display:none;
+}
+.content {
+    width: 60% !important;
+    position: relative;
+    left: 10%!important;}
+
+.post-content, .comment-content,.modal-content {
+    background: #e8e8e8ab;
+    backdrop-filter: blur(3px);
+    box-shadow: 3px 3px 0px 0px #f5f5f5, -3px -3px 0 0px #8b9fa0;
+    margin-bottom:3rem;
+    padding:1%;}
+
+.post-title, h1 {
+    font-size: 25px!important;
+}
+.quotation{
+    border-left: 2px solid #0b363b;
+}
+.post-avatar img,.user_img_shadow {
+    border-radius: 100px;
+    box-shadow: 0 0 5px #fff;
+}
+
+.avatar-select-label {
+    border: 4px solid #ffffff00;
+    border-radius: 100px;
+    width: 90px;
+}
+.avatar-select-label-selected {
+    border: 4px solid #0b363b; 
+    width: 100px;
+}
+button, input,button.btn.btn-primary {
+    background: #9dbdbc;
+    border: 1px solid;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+input[type="text"] {
+    margin-bottom: 10px;
+}
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,a.btn.btn-outline-primary.mb-3:hover {
+    background: #e8e8e8d1 !important;
+    border: 1px solid #ccc;
+    color: #000 !important;
+    box-shadow: inset 0 0 4px #49647f !important;
+}
+.show>.btn-outline-primary.dropdown-toggle,a.btn.btn-outline-primary.mb-3:hover,.btn-outline-primary.focus, .btn-outline-primary:focus,.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active,a.btn.btn-outline-primary.mb-3 {
+    border: 1px solid #ccc !important;
+    box-shadow: inset 0 0 4px #000 !important;
+}
+
+.div_user_img,.user_footer {
+    border:none;
+}
+::-webkit-scrollbar-button {
+width:5px;
+height:0px;
+}
+::-webkit-scrollbar-track {
+background-color:#8b9fa0;
+box-shadow: none;
+width: 5px;
+}
+::-webkit-scrollbar-thumb {
+background: #233c48;
+box-shadow:none;
+}
+::-webkit-resizer{
+width:5px;
+height:0px;
+}
+::-webkit-scrollbar{
+width: 5px;
+}
+
+.textareabg,.left-menu h3 {
+    background:transparent !important;
+}
+#beon-fnplayer {
+    height: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #89abad;
+    margin: 5px auto;
+    box-shadow: 0 0 5px;
+}
+
+#fnplayer-play,#fnplayer-slider {
+    border-color: transparent transparent transparent #ffffff;
+}
+#fnplayer-stop,#fnplayer-volume-inner {
+    background: #fff;
+}
+#fnplayer-slider-inner {
+    background-color: #67969e;
+}
+#fnplayer-volume-mask {
+    border-color: #89abad transparent transparent transparent;
+}
+textarea {
+background:#e8e8e8d1;
+border:none;
+border-radius:0px;}
+
+.left-menu {
+    border: none !important;
+}
+
+h3 {
+    font-weight:bold; 
+}
+
+@media (max-width: 800px) {
+main.py-4 {
+    flex-flow: column;
+}
+.menu__box {
+    background: linear-gradient(15deg, rgb(191 204 204) 0%, rgb(143 181 179) 100%);
+}
+main.py-4 {
+    padding: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 98%!important;
+}
+.content,.left-menu {
+    width: 100% !important;
+    position: inherit;
+}
+
+.post-avatar img {
+    width: 80px;
+}
+
+.fas, .far, .tag_bar > * {
+    font-size: 1rem;
+}
 
