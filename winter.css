@@ -208,8 +208,8 @@ input[type="text"] {
     box-shadow: inset 0 0 4px #8eb9e5 !important;
 }
 .show>.btn-outline-primary.dropdown-toggle,a.btn.btn-outline-primary.mb-3:hover,.btn-outline-primary.focus, .btn-outline-primary:focus,.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active,a.btn.btn-outline-primary.mb-3 {
-    border: 1px solid #ccc !important;
-    box-shadow: inset 0 0 4px #000 !important;
+    border: 1px solid #8baac0 !important;
+    box-shadow: inset 0 0 4px #84a5bb !important;
 }
 
 .div_user_img,.user_footer {
