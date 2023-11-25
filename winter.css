@@ -364,3 +364,6 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     padding: 4px;
     padding-left: 10px;
 }
+.pagination {
+    float: none;
+}
