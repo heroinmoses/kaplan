@@ -188,7 +188,7 @@ h2 {
     width: 80%;
     filter: grayscale(0) contrast(1) !important;
 }
-button, input,button.btn.btn-primary {
+button, input,button.btn.btn-primary,.btn-secondary {
     background: #fff;
     border: 1px dashed;
     border-radius:5px;
@@ -201,7 +201,7 @@ input[type="text"] {
     max-width: 150px;
     margin-right: 10px;
 }
-[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,a.btn.btn-outline-primary.mb-3:hover {
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,a.btn.btn-outline-primary.mb-3:hover,.btn-secondary:hover {
     background: #e2f3fc !important;
     border: 1px dashed #9cbfe7;
     color: #3c6189 !important;
