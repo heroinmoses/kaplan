@@ -53,7 +53,11 @@ div#app {
     padding-left: 0;
     padding-top: 6px !important;
 }
-
+.crumbs {
+    background: #d5e6f280;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px #c7dff1;
+}
 body {
     background: url(https://i1.beon.fun/89/16/1689/13/894913/Bez-imeni-6.png) top fixed, linear-gradient(208deg, #dbecf4, #cbdeed, #b6d0e1, #90afc4, #5f84a1, #1a4568);
     background-repeat: no-repeat;
@@ -359,6 +363,4 @@ a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:before {
     margin-top: 60px !important;
     padding: 4px;
     padding-left: 10px;
-    background: #cbdeed;
-    box-shadow: 0 0 10px #cbdeed
 }
