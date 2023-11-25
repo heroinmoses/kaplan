@@ -88,6 +88,10 @@ a:hover,span[data-target="#deleteconfirmmodal"]:hover,.liked .fas, .reposted .fa
     backdrop-filter: blur(2px);
     padding: 3px;
 }
+
+.datebg {
+    font-size: 100%;
+}
 #beon-fnplayer {
     height: 25px;
     width: 80%;
