@@ -358,3 +358,9 @@ h2,.textareabg p {
     border-top: 2px dashed #6b8e4e;
     border-left: 2px dashed #6b8e4e;
 }
+.pagination a,span.pagination-goto {
+    color: #b2c5b2 !important;
+}
+.pagination {
+    color: #6b8e4e !important;
+}
