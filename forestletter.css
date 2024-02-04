@@ -162,6 +162,10 @@ div#app {
 .post-content {
      margin: 0 10px 10px !important;
 }
+h1 {
+    margin-bottom:0 !important;
+    background: #b2c5b2 !important;
+}
 .post-header, h3 {
     background: #b2c5b2 !important;
     margin: 0 !important;
@@ -189,8 +193,10 @@ div#app {
     padding: 2px;
     border: 2px dashed #6b8e4e !important;
 }
-
-.post-row, .comment-row, .modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends {
+.postsiblings {
+    margin-top:0 !important;
+}
+.post-row, .comment-row, .modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends,.small-text,[style="display: flex; justify-content: space-between;"],.text-right,#app > main > div.content > div.post-content > div:nth-child(5),.prevsibling.col-md-6 {
     background: #d5dddc;
 }
 
