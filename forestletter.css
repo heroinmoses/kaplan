@@ -166,7 +166,7 @@ h1 {
     margin-bottom:0 !important;
     background: #b2c5b2 !important;
 }
-.post-header, h3 {
+.post-header, h3,h1 {
     background: #b2c5b2 !important;
     margin: 0 !important;
     text-align: center;
