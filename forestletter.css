@@ -171,6 +171,9 @@ h1 {
     margin: 0 !important;
     text-align: center;
 }
+.comment-header,.small-text,[style="display: flex; justify-content: space-between;"],.text-right,.prevsibling.col-md-6 {
+    background: #b2c5b2;
+}
 .post-avatar {
     margin-left:0 !important;
 }
@@ -196,7 +199,7 @@ h1 {
 .postsiblings {
     margin-top:0 !important;
 }
-.post-row, .comment-row, .modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends,.small-text,[style="display: flex; justify-content: space-between;"],.text-right,#app > main > div.content > div.post-content > div:nth-child(5),.prevsibling.col-md-6 {
+.post-row, .comment-row, .modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends {
     background: #d5dddc;
 }
 
