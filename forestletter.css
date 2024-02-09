@@ -207,17 +207,6 @@ h1 {
     background: #d5dddc;
 }
 
-.comment-content [href="//malfoy.beon.fun"]::before {
-    content: ' ';
-    background: url(https://i1.beon.fun/89/16/1689/9/536809/19.png) no-repeat;
-    background-size: contain;
-    width: 153px;
-    height: 100px;
-    margin-left: -39px;
-    margin-top: 30px;
-    position: absolute;
-    transform: rotate(25deg);
-}
 /*кнопки*/
 button, input,button.btn.btn-primary {
     background: #b2c5b2;
