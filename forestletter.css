@@ -79,7 +79,17 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
     right: 215px;
     bottom: 15px;
 }
-
+.comment-content [href="//malfoy.beon.fun"]::before {
+    content: ' ';
+    background: url(https://i1.beon.fun/89/16/1689/9/536809/19.png) no-repeat;
+    background-size: contain;
+    width: 153px;
+    height: 100px;
+    margin-left: -39px;
+    margin-top: 30px;
+    position: absolute;
+    transform: rotate(25deg);
+}
 /*иконки*/
 li {list-style:none;}
 [src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"],#footer,#page__rendertime,.post-content.blog_total_counter, #page__admincontact, .footer__infolinks.p-1, .post-content.blog_total_counter, [href="//beon.fun/photoeditor"] {
