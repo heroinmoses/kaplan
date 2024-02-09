@@ -328,7 +328,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm,div#newpostform,.pos
     background: #d5dddc;
     border: 2px dashed #6b8e4e;
     box-shadow: 3px 3px 0px #d5dddc, 3px -3px 0px #d5dddc, 3px 0 0 #d5dddc, -3px -3px 0 #d5dddc, -3px 3px 0 #d5dddc !important;
-    margin: 15px 3px !important;}
+    margin: 3px 3px !important;}
 .post-content, .left-menu, .comment-content {
     margin-top: 15px !important;
 }
