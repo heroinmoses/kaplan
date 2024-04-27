@@ -4,7 +4,6 @@ color: #0f0f0f;
 color: #0f0f0f!important;
 font-family: 'Roboto Condensed', sans-serif;
 font-weight: 400;
-font-style: normal;
 }
 a {
     text-decoration: none !important;
@@ -89,7 +88,6 @@ font-size: 13px;
 .post-header,.comment-header *,.textareabg p {
 font-size: 13px;
 font-weight:bold;
-font-style: italic;
 }
 .post-header,.comment-header {
 padding-right: 10px;
