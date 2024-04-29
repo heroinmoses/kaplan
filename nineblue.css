@@ -152,7 +152,12 @@ div#fnplayer-slider {
 a.navbar-brand {
     font-family: 'Grape Nuts', cursive !important;
 }
-
+.left-menu__gift img {
+    width: 25px !important;
+}
+.left-menu__gift a {
+    display: none;
+}
 .post-content.blog_total_counter {
     display: none;
 }
