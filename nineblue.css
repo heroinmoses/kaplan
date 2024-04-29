@@ -138,7 +138,7 @@ div#fnplayer-slider {
     border-bottom: 2px solid #585959;
 }
 
-.left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification,.left-menu__user-notification.left-menu__friends,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts, .blog__read-me, .blog__iread, .blog__tags, .blog__last-comments {
+.left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification,.notifications__comments,.left-menu__user-notification.left-menu__friends,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts, .blog__read-me, .blog__iread, .blog__tags, .blog__last-comments {
     background: #f8fafc url(https://www.transparenttextures.com/patterns/lined-paper-2.png);
     background-size: 40%;
     width: 90%;
