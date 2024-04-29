@@ -45,7 +45,7 @@ a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down
     right: 10px;
 }
 /*иконки*/
-[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"],#footer,#page__rendertime,.post-content.blog_total_counter,.post-title-date,a.messageform__taglinks img,.blog:before,.left-menu__friends.left-menu__friends_offline,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments {
+[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"],#footer,#page__rendertime,.post-content.blog_total_counter,a.messageform__taglinks img,.blog:before,.left-menu__friends.left-menu__friends_offline,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments {
 display: none;
 }
 li {list-style:none;}
