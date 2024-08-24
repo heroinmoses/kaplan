@@ -89,6 +89,7 @@ a.menu__item {
 }
 i.fas.fa-heart:hover:before,.liked .fas {
     content: url(https://i1.beon.fun/89/16/1689/67/256967/like.png);
+    filter: hue-rotate(151deg);
 }
 .fas::before,.far::before,.fab::before {
     color: #ffa3a3;
