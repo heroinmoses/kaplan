@@ -79,9 +79,11 @@ a.menu__item {
 .post-content.blog_total_counter,[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"] {display: none;}
 .fa-step-forward:before {
     content: url(https://i1.beon.fun/89/16/1689/53/256953/right-arrow-1.png);
+    filter: hue-rotate(151deg);
 }
 .fa-step-backward:before {
     content: url(https://i1.beon.fun/89/16/1689/57/256957/right-arrow-3.png);
+    filter: hue-rotate(151deg);
 }
 .fa-heart:before {
     content: url(https://i1.beon.fun/89/16/1689/63/256963/heart-1.png);
