@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    color:#bfebe2; 
+    color:#bfebe2 !important; 
+    transition: all 0.4s;
+    font-family: "Josefin Sans", sans-serif;
+}
+*:focus-visible {
+    outline: none;
+}
+div#app {
+    padding: 0 !important;
+}
+main.py-4 {
+    width: 98%;
+    margin: auto;
+}
+::selection {
+    background: #0b1a34;
+    color: #fff;
+    text-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff;}
+
+.shadow-sm {
+    box-shadow:none !important;
+}
+[href="https://beon.fun"] {
+    content: url(https://i1.beon.fun/89/16/1689/54/1187254/Bez-imeni-1.png); 
+    width: 120px !important;
+    filter: brightness(1.1);
+    position:relative;
+    top:0px;
+}
+[href="https://beon.fun"]:hover {
+    filter: brightness(1.5);
+}
+.bg-white {
+    background: linear-gradient(180deg, #132342, #133c60, transparent);
+}
+.alert-success,.alert-warning {
+    background-color: #0b4e70;
+    border-color: #0e1834;
+}
+
+body { 
+   background: url(https://i1.beon.fun/89/16/1689/56/1187256/PORAzZlmCy0.png) no-repeat fixed 75% 50%; 
+    background-size:cover;}
+.crumbs {
+    padding: 0 1%;
+    display: block;
+    width: 60%;
+    margin: 0px 32% !important;
+}
+a.my-menu.for-mobile.d-none.d-md-inline, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    background: url(https://i1.beon.fun/89/16/1689/4/1196004/fffff.png) no-repeat center / contain;
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    transform: rotate(90deg);
+    font-size: 0px;
+    width: 30px;
+    height: 30px;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+    background: url(https://i1.beon.fun/89/16/1689/4/1196004/fffff.png) no-repeat center / contain;
+    font-size: 0px;
+    transform: rotate(-90deg);
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    top: 35px;
+}
+[style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:hover,a.my-menu.for-mobile.d-none.d-md-inline:hover, a.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none:hover, .menu__btn:hover {
+    transition: all 0.4s;
+    filter: drop-shadow(1px 0 1px #00ffef) drop-shadow(0 1px 1px #00ffef) drop-shadow(-1px 0 1px #00f9e9) drop-shadow(0 -1px 1px #00ffef) drop-shadow(0 0 5px #fff) brightness(1.1);
+}
+/*иконки*/
+[src="/i/user.png"], [src="/i/blog.png"],[src="//beon.fun/i/offline.png"],[src="//beon.fun/i/online.png"], [src="/i/offline.png"],.user:before,.tag:before,[src="/i/online.png"],#footer,#page__rendertime,.post-content.blog_total_counter {
+    display: none;
+}
+li {list-style:none;}
+/*иконки конец*/
+a {
+    text-decoration:none !important;
+}
+a:hover,span[data-target="#deleteconfirmmodal"]:hover,.liked .fas, .reposted .fas, .bookmarked .fas,i.fas.fa-heart:hover, i.fas.fa-retweet:hover, i.fas.fa-quote-left:hover, .fa:hover, .fas:hover, i.far.fa-smile-wink:hover {
+    color: #ddfff8; 
+    color:#ddfff8!important; 
+    text-decoration:none; 
+    text-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff;
+}
+.post-content.blog_total_counter {
+    display:none;
+}
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.datebg {
+    display: inline;
+    border-radius: 5px;
+    background: linear-gradient(268deg, #04677700 22%, #99d0bd 100%);
+    font-size: 100%;
+}
+.post-content {
+    margin: auto !important;
+}
+
+.post-content, .comment-content,.modal-content,.notifications__comments.d-none,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts,.blog__read-me,.blog__iread,.blog__tags,.blog__last-comments,.notifications__comments.left-menu__user-notification,.left-menu__user-notification.left-menu__unread-notifications,.notifications__comments,.textareabg,.community__moders, .community__members, .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification.left-menu__friends,#usermenu {
+    background: linear-gradient(0deg, #1222435e, #123d5feb);
+    backdrop-filter: blur(3px);
+    border-radius: 3px;
+    margin-bottom: 3rem !important;
+    padding: 26px !important;
+    border-image-source: url(https://i1.beon.fun/89/16/1689/67/1187367/Bez-imeni-3.png);
+    border-image-repeat: round;
+    border-image-slice: 65;
+    border-image-width: 21px 21px 21px 21px;
+}
+.notifications__comments.left-menu__user-notification:before,.blog__about:before {
+    content: 'любовь';
+    background: url(https://i1.beon.fun/89/16/1689/61/1197161/a.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 67px;
+    height: 100px;
+    font-size: 0;
+    transform: translate(270px, -35px) rotate(331deg);
+    filter: contrast(1.3);
+    z-index: 1;
+}
+
+.left-menu__user-notification.left-menu__unread-message:before {
+    content: 'любовь';
+    background: url(https://i1.beon.fun/89/16/1689/61/1197161/a.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 67px;
+    height: 100px;
+    font-size: 0;
+    transform: translate(100px, -35px) rotate(331deg);
+    filter: contrast(1.3);
+    z-index: 1;
+}
+.left-menu {
+    border:none !important;
+    width: 24%;
+}
+
+.left-menu h3 {
+    background: transparent !important;
+    letter-spacing: 1px;
+    text-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff;
+}
+h2 {
+    text-align: center;
+    text-shadow: 0 0 10px #fff;
+}
+.post-title, h1 {
+    font-size: 25px!important;
+}
+
+.quotation{
+    border-left: none;
+    color: #3b9c99 !important;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding-top: 0;
+    background: linear-gradient(270deg, #14254700 0%, #122343 131%);
+    font-size: 12px;
+
+}
+.post-avatar:before {
+    content: 'любовь';
+    background: url(https://i1.beon.fun/89/16/1689/79/1187579/Bez-imeni-5.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 82px;
+    height: 100px;
+    font-size: 0;
+    transform: translate(14px, 0px) rotate(40deg);
+    filter: contrast(1.3) grayscale(1);
+    z-index: 1;
+}
+.avatar-select-label {
+    border: 4px solid #ffffff00;
+    filter: opacity(0.7) contrast(1.1);
+    width: 80px;
+}
+.avatar-select-label-selected {
+    box-shadow: 0 0 5px #00fff3;
+    border: none;
+    filter: contrast(1.2) opacity(1);
+    width: 90px;
+}
+button, input,button.btn.btn-primary {
+    background: #11365880;
+    border: 1px solid #065a74;
+    border-radius:0;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+input[type="text"] {
+    margin-bottom: 10px;
+    max-width: 150px;
+    margin-right: 10px;
+}
+[type=reset]:hover, [type=submit]:hover, button:hover, html [type=button]:hover,a.btn.btn-outline-primary.mb-3:hover {
+    background: #02375c !important;
+    border: 1px solid #416083;
+    color: #fff !important;
+    box-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff; !important;
+    text-shadow: 1px 0 1px #00ffef, 0 1px 1px #00ffef, -1px 0 1px #00f9e9, 0 -1px 1px #00ffef, 0 0 5px #fff;
+}
+.show>.btn-outline-primary.dropdown-toggle,a.btn.btn-outline-primary.mb-3:hover,.btn-outline-primary.focus, .btn-outline-primary:focus,.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active,a.btn.btn-outline-primary.mb-3 {
+    border: 1px solid #ccc !important;
+    box-shadow: inset 0 0 4px #000 !important;
+}
+
+.div_user_img,.user_footer {
+    border:none;
+}
+::-webkit-scrollbar-button {
+width:6px;
+height:0px;
+}
+::-webkit-scrollbar-track {
+background-color: #0b1a34;
+box-shadow: none;
+width: 3px;
+}
+::-webkit-scrollbar-thumb {
+background: #0b4e70;
+border-radius:1px;
+box-shadow:inset 1px 0 1px #00ffef, inset 0 1px 1px #00ffef, inset -1px 0 1px #00f9e9, inset 0 -1px 1px #00ffef, inset 0 0 5px #fff;
+}
+::-webkit-resizer{
+width:5px;
+height:0px;
+}
+::-webkit-scrollbar{
+width: 5px;
+}
+
+/*плеер*/
+div#beon-fnplayer {
+    border: 1px solid #133b5f;
+    background: #102240;
+    border-radius: 0;}
+
+#fnplayer-volume-inner {
+    background-color: #0e4666;
+    border: 1px solid #0e4666;
+}
+
+#fnplayer-stop {
+    background: #0e4666;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #0e4666;
+}
+#fnplayer-slider > span {
+    display: none;
+}
+
+#fnplayer-volume-mask {
+    border-color: #102240 transparent transparent transparent;
+}
+
+#fnplayer-volume {
+    background-color: #102240;
+}
+
+#fnplayer-slider {
+    height: 4px;
+    background-color: #0e4868;
+}
+
+#fnplayer-slider-inner {
+    height: 4px;
+    background: linear-gradient(93deg, #4c4f5f, #89020e);
+}
+/*конец плеера*/
+.modal-footer {
+    border-top: 1px dashed;
+}
+.modal-header {
+    border-bottom: 1px dashed;
+}
+textarea {
+    background: #0b4e7090;
+    border: 1px solid #000;
+    border-radius:0px;
+    padding: 10px;
+}
+
+.left-menu {
+    border: none !important;
+}
+
+h3 {
+    font-weight:bold; 
+}
+
+@media (max-width: 800px) {
+
+div#app {
+    padding: 55px 0 0 0 !important;
+}
+.navbar {
+    padding: 2px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 9;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #bfebe2;
+}
+.menu__item {
+    padding: 0;
+}
+.menu__item:hover {
+    background: linear-gradient(-124deg, #0b4e70, transparent);
+}
+.menu__box {
+    top: 51px;
+    height: calc(100% - 52px) !important;
+    background: linear-gradient(0deg, #0b4e70, #113658);
+    border-image-source: url(https://i1.beon.fun/89/16/1689/67/1187367/Bez-imeni-3.png);
+    border-image-repeat: round;
+    border-image-slice: 65;
+    border-image-width: 20px 20px 20px 20px;
+    padding: 17px 15px 0 17px;
+}
+main.py-4 {
+    flex-flow: column;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 96%;
+}
+div.crumbs {
+    padding: 4px;
+    padding-left: 10px;
+}
+.content,.left-menu {
+    width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    position: inherit;
+}
+
+.post-avatar img {
+    width: 80px;
+}
+
+.fas, .far, .tag_bar > * {
+    font-size: 1rem;
+}
+
+.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none, .my-menu.for-mobile.d-none.d-md-inline {
+    top: 15px !important;
+    position: fixed;
+    right: 50px !important;
+    font-size: 0;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    position: fixed;
+    right: 80px;
+    top: 15px;
+    z-index: 99;
+    font-size: 0;
+    width: 30px;
+    height: 30px;}
+
+.notifications__comments.left-menu__user-notification:before,.blog__about:before {
+    transform: translate(265px, -45px) rotate(331deg);
+}
+
+.left-menu > div.mobile_open_menu > h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+.bg-white {
+    background: #113658;
+    box-shadow: 0 0 2px 1px #046577, 0 0 3px 0px #018483 !important;
+}
+.m2 {
+    font-size: 60%;
+    position: relative;
+    top: -10px;
+    left: 4px;
+}
+[href="https://beon.fun"] {
+    width: 100px !important;
+}
+
+.crumbs {
+    padding: 0 1%;
+    width: 98%;
+    margin: auto !important;
+}
+span.crumb-item {
+    display: block;
+    text-align: center;
+}
+.pagination {
+    float: none;
+    justify-content: space-evenly;
+}
+
+.post-avatar:before {
+    width: 62px;
+    height: 86px;
+    transform: translate(7px, 0px) rotate(40deg);
