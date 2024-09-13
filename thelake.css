@@ -196,7 +196,7 @@ h2 {
     filter: contrast(1.2) opacity(1);
     width: 90px;
 }
-button, input,button.btn.btn-primary {
+button, input,button.btn.btn-primary,button.btn.btn-secondary {
     background: #11365880;
     border: 1px solid #065a74;
     border-radius:0;
