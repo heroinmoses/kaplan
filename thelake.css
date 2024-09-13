@@ -307,7 +307,7 @@ h3 {
     font-weight:bold; 
 }
 
-select,label.custom-file-label {
+select,label.custom-file-label,option {
     color: #113756 !important;
 }
 
