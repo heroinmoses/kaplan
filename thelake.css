@@ -99,6 +99,7 @@ a:hover,span[data-target="#deleteconfirmmodal"]:hover,.liked .fas, .reposted .fa
 }
 
 .datebg {
+    color: #0a1932 !important;
     display: inline;
     border-radius: 5px;
     background: linear-gradient(268deg, #04677700 22%, #99d0bd 100%);
