@@ -150,7 +150,7 @@ div#fnplayer-slider {
     width: 90%;
     margin: auto;
     padding: 0px;
-    border: 2px solid #585959;
+    border: 2px solid #585959 !important;
     box-shadow: 5px 5px 0 #fcf8f8, 6px 6px 0 #000, 6px 4px 0 #000, 4px 6px 0 #000;
     margin-bottom: 15px;
 }
@@ -324,7 +324,7 @@ span.crumb-item {
 }
 
 .left-menu__user-notification.left-menu__unread-message,.left-menu__user-notification,.left-menu__user-notification.left-menu__friends,.left-menu__friends.left-menu__friends_offline,.blog__about,.blog__gifts, .blog__read-me, .blog__iread, .blog__tags, .blog__last-comments {
-    border: 1px solid #585959;
+    border: 1px solid #585959 !important;
     box-shadow: 5px 5px 0 #fcf8f8, 6px 6px 0 #000, 6px 4px 0 #000, 4px 6px 0 #000;
 }
 
